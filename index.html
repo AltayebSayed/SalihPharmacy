@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>صالح فارماسي | SAlih Pharmacy</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f5f5f5; margin: 0; padding: 0; direction: rtl; color: #222;}
+        header { background: #28a745; color: white; padding: 20px; text-align: center;}
+        header h1 { margin: 0; font-size: 2.5rem; }
+        nav { background: #222; display: flex; justify-content: center; }
+        nav a { color: white; padding: 15px 20px; text-decoration: none; display: block; }
+        nav a:hover { background: #28a745; }
+        section { padding: 30px; max-width: 1200px; margin: 0 auto; }
+        h2 { margin-bottom: 20px; }
+        .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .product { background: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); overflow: hidden; text-align: center; padding: 20px;}
+        .product img { width: 100%; height: 200px; object-fit: cover; }
+        .product h3 { margin: 15px 0 10px; }
+        .product p { color: #555; font-size: 1rem; }
+        .price { font-weight: bold; color: #28a745; font-size: 1.2rem; margin: 10px 0; }
+        .btn-order { display: inline-block; background: #28a745; color: white; padding: 10px 15px; border-radius: 5px; text-decoration: none; }
+        .btn-order:hover { background: #218838; }
+        footer { background: #222; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+        .payment-methods p { margin: 10px 0; }
+        .contact a { color: #28a745; text-decoration: none; }
+        .contact a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+<header>
+    <h1>صالح فارماسي | SAlih Pharmacy</h1>
+</header>
+<nav>
+    <a href="#products">الأدوية</a>
+    <a href="#payment">طرق الدفع</a>
+    <a href="#contact">تواصل معنا</a>
+</nav>
+
+<section id="products">
+    <h2>جميع الأدوية</h2>
+    <div class="products">
+        <div class="product">
+            <img src="https://via.placeholder.com/300x200.png?text=دواء+باراسيتامول" alt="باراسيتامول 500mg" />
+            <h3>باراسيتامول 500mg</h3>
+            <p>مسكن آلام وخافض حرارة</p>
+            <div class="price">1000 SDG</div>
+            <a href="https://wa.me/249901535453?text=أريد طلب باراسيتامول 500mg" target="_blank" class="btn-order">اطلب عبر واتساب</a>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/300x200.png?text=دواء+فيتامين+سي" alt="فيتامين سي 1000mg" />
+            <h3>فيتامين سي 1000mg</h3>
+            <p>مكمل غذائي لرفع المناعة</p>
+            <div class="price">1500 SDG</div>
+            <a href="https://wa.me/249901535453?text=أريد طلب فيتامين سي 1000mg" target="_blank" class="btn-order">اطلب عبر واتساب</a>
+        </div>
+    </div>
+</section>
+
+<section id="payment">
+    <h2>طرق الدفع</h2>
+    <div class="payment-methods">
+        <p>✅ الدفع عن طريق بنك الخرطوم - رقم الحساب: 123456789</p>
+        <p>✅ كاش عند الاستلام في البشاقرة شرق - السودان</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>تواصل معنا</h2>
+    <p class="contact">📍 الموقع: البشاقرة شرق، ولاية الجزيرة - السودان</p>
+    <p class="contact">📞 رقم واتساب: <a href="https://wa.me/249901535453" target="_blank">+249 90 153 5453</a></p>
+</section>
+
+<footer>
+    جميع الحقوق محفوظة © صالح فارماسي 2025
+</footer>
+</body>
+</html>
